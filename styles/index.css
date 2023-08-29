@@ -1,0 +1,91 @@
+h2 {
+  font-size: 24px;
+  text-align: center;
+  padding: 14px 0;
+  font-weight: 500;
+}
+/* TASK 1 */
+.hero {
+  padding: 30px;
+  background: #ffb6b6;
+}
+.hero__list li {
+  color: #ffffff;
+  font-size: 20px;
+  list-style: number;
+  padding: 10px 10px;
+  list-style-position: inside;
+  margin: 10px;
+  background: #ff8f8f;
+}
+.hero__list li span {
+  background-color: #d55f5f;
+  padding: 9px;
+}
+/* TASK 2 */
+.list {
+  list-style: checkbox;
+  padding: 40px 40px 40px 40px;
+  background: #d5f2f8;
+}
+.list h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.list__items {
+  font-size: 20px;
+  background-color: #2b8cd2;
+}
+.list__items li:nth-child(even) {
+  background-color: #53b0f2;
+}
+.list__items li {
+  padding: 10px;
+}
+.list__items_checked {
+  background-color: rgb(205, 205, 205) !important;
+}
+.list__items_checked label {
+  text-decoration: line-through;
+}
+.list__items li input {
+  margin-right: 10px;
+}
+.list__items li span {
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 30px;
+  text-decoration: none !important;
+}
+/* TASK 3 */
+.tag {
+  padding: 50px 30px 50px 60px;
+  background-color: rgb(246, 246, 246);
+}
+.tag__title {
+  font-size: 20px;
+}
+.tag__title_tag {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+.tag__content {
+  font-size: 20px;
+  font-style: italic;
+}
+.tag__content_light {
+  color: #8b8b8b;
+}
+.tag__content_accent {
+  color: #0000ff;
+}
+.tag__about {
+  font-size: 18px;
+  padding-left: 130px;
+}
+.tag__about li {
+  list-style: number;
+}
